@@ -23,7 +23,7 @@ library(tidymodels)
 # write_rds(data_model, "results/02_model_ready.rds")
 
 #source("R/fit_penguin_model.R")
-library(practice25)
+#library(practice25)
 
 fit_penguin_model(
   input_path = "data/01_clean_penguins.rds",

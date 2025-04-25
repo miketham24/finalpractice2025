@@ -13,6 +13,7 @@ In this tutorial, you will refactor the code into separate scripts corresponding
 library(tidyverse)
 library(palmerpenguins)
 library(tidymodels)
+library(practice25)
 
 data <- read_rds("data/01_clean_penguins.rds")
 ```

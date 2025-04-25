@@ -21,8 +21,6 @@ fit_penguin_model <- function(
   library(tidyverse)
   library(palmerpenguins)
   library(tidymodels)
-  library(practice25)
-
 
   data <- read_rds(input_path)
 
@@ -46,6 +44,6 @@ fit_penguin_model <- function(
   dir.create(dirname(output_path), showWarnings = FALSE, recursive = TRUE)
   write_rds(data_model, output_path)
 
-  invisible(data_model)
+  return(data_model)
 }
 

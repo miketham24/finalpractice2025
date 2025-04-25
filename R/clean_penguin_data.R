@@ -13,8 +13,6 @@
 clean_penguin_data <- function(output_path) {
   library(tidyverse)
   library(palmerpenguins)
-  library(practice25)
-
 
   data <- palmerpenguins::penguins %>% drop_na()
 
