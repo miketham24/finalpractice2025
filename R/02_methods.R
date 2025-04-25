@@ -14,3 +14,6 @@ ggplot(data, aes(x = species, y = bill_length_mm, fill = species)) +
 data <- data %>%
   select(species, bill_length_mm, bill_depth_mm, flipper_length_mm, body_mass_g) %>%
   mutate(species = as.factor(species))
+
+
+
